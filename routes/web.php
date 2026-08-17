@@ -6,11 +6,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index']);
 
 Route::post('/send-message', [HomeController::class, 'submitContact'])->name('contact.submit');
-
-Route::get('/contact-submit', function () {
-    return 'Laravel reached';
-});
-
-Route::get('/test-route', function () {
-    return 'Working';
-});

@@ -36,7 +36,7 @@ class HomeController extends Controller
         $subject = 'New Partnership Enquiry - ZYNTH Africa';
 
         SendOneSignalEmailJob::dispatch(
-            ['samuelagyekumhene@gmail.com'],
+            ['samuelagyekumhene@gmail.com','zynthafrica@outlook.com'],
             $subject,
             'emails.new_contact',
             [
