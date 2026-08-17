@@ -1059,16 +1059,39 @@
                                     </p>
                                 </div>
 
-                                <div id="form-messages"></div>
+                                @if(session('success'))
+                                    <script>
+                                        alert(@json(session('success')));
+                                    </script>
+                                @endif
 
-                                <form
-                                    id="contact-form"
-                                    class="contact-form"
-                                    method="post"
-                                    action="https://rstheme.com/products/html/reobiz/mailer.php"
-                                >
+                                @if($errors->any())
+                                    <script>
+                                        alert(@json($errors->first()));
+                                    </script>
+                                @endif
+
+                                @if(session('success'))
+
+                                    <div class="alert alert-success">
+                                        {{ session('success') }}
+                                    </div>
+
+                                @endif
+
+                                @if($errors->any())
+                                    <div class="alert alert-danger">
+                                        <ul class="mb-0">
+                                            @foreach($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
+
+                                <form class="contact-form" action="{{ route('contact.submit') }}" method="POST">
+                                    @csrf
                                     <div class="row">
-
                                         <div class="col-md-6 mb-30">
                                             <div class="common-control">
                                                 <input
