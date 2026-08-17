@@ -1325,14 +1325,14 @@
         margin-right: 0;
     }
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu {
-        background: #106eea;
+        background: #063D31;
     }
     .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a,
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu > li > a {
         height: unset;
         line-height: normal;
         padding: 18px 20px !important;
-        border-bottom: 1px solid #257be5;
+        border-bottom: 1px solid #D6A536;
     }
     .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li:last-child > a,
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu > li:last-child > a {
