@@ -10,3 +10,7 @@ Route::post('/contact-submit', [HomeController::class, 'submitContact'])->name('
 Route::get('/contact-submit', function () {
     return 'Laravel reached';
 });
+
+Route::get('/test-route', function () {
+    return 'Working';
+});
