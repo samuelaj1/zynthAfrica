@@ -11,40 +11,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon -->
         <link rel="apple-touch-icon" href="https://rstheme.com/">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+        <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/images/fav.png')}}">
         <!-- Bootstrap v4.4.1 css -->
         <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
         <!-- font-awesome css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-        <!-- animate css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-        <!-- aos css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
-        <!-- owl.carousel css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
-        <!-- slick css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-        <!-- off canvas css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
-        <!-- linea-font css -->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/linea-fonts.css">
-        <!-- flaticon css  -->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
-        <!-- magnific popup css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
-        <!-- Main Menu css -->
-        <link rel="stylesheet" href="assets/css/rsmenu-main.css">
-        <!-- nivo slider CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/inc/custom-slider/css/nivo-slider.css">
-        <link rel="stylesheet" type="text/css" href="assets/inc/custom-slider/css/preview.css">
-        <!-- rsmenu transitions css -->
-        <link rel="stylesheet" href="assets/css/rsmenu-transitions.css">
-        <!-- spacing css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
-        <!-- style css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!-- responsive css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.min.css') }}">
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
+    <!-- aos css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/aos.css') }}">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.css') }}">
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/slick.css') }}">
+    <!-- off canvas css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/off-canvas.css') }}">
+    <!-- linea-font css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/linea-fonts.css') }}">
+    <!-- flaticon css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/flaticon.css') }}">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/magnific-popup.css') }}">
+    <!-- Main Menu css -->
+    <link rel="stylesheet" href="{{ asset('assets/css/rsmenu-main.css') }}">
+    <!-- nivo slider CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/inc/custom-slider/css/nivo-slider.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/inc/custom-slider/css/preview.css') }}">
+    <!-- rsmenu transitions css -->
+    <link rel="stylesheet" href="{{ asset('assets/css/rsmenu-transitions.css') }}">
+    <!-- spacing css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/rs-spacing.css') }}">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
     </head>
     <body class="defult-home">
 
@@ -100,7 +100,7 @@
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="logo-area">
-                                    <a href="{{url('/')}}"><img src="assets/images/logo_zynth_africa.png" alt="logo"></a>
+                                    <a href="{{url('/')}}"><img src="{{asset('assets/images/logo_zynth_africa.png')}}" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-lg-9 text-right">
@@ -168,7 +168,7 @@
                         </span>
                     </div>
                     <div class="canvas-logo">
-                        <a href="{{url('/')}}"><img src="assets/images/logo_zynth_africa.png" alt="logo"></a>
+                        <a href="{{url('/')}}"><img src="{{asset('assets/images/logo_zynth_africa.png')}}" alt="logo"></a>
                     </div>
                     <div class="offcanvas-text">
                         <p>
@@ -213,8 +213,8 @@
             <div id="rs-slider" class="rs-slider slider1">
                 <div class="bend niceties">
                     <div id="nivoSlider" class="slides">
-                        <img src="assets/images/slider/bg1.png" alt="" title="#slide-1" />
-                        <img src="assets/images/slider/bg2.jpg" alt="" title="#slide-2" />
+                        <img src="{{asset('assets/images/slider/bg1.png')}}" alt="" title="#slide-1" />
+                        <img src="{{asset('assets/images/slider/bg2.jpg')}}" alt="" title="#slide-2" />
                     </div>
                     <!-- Slide 1 -->
                     <div id="slide-1" class="slider-direction">
@@ -266,7 +266,7 @@
                             <div class="col-lg-6">
                                 <div class="zynth-about-visual">
                                     <img
-                                        src="assets/images/about/zynth-africa-network.png"
+                                        src="{{asset('assets/images/about/zynth-africa-network.png')}}"
                                         alt="ZYNTH Africa connected ecosystem"
                                     >
                                 </div>
@@ -464,7 +464,7 @@
 
                                     <div class="ecosystem-center">
                                         <img
-                                            src="assets/images/fav.png"
+                                            src="{{asset('assets/images/fav.png')}}"
                                             alt="ZYNTH Africa"
                                             class="ecosystem-logo"
                                             style="height: 50px"
@@ -638,7 +638,7 @@
                         <!-- Swimfest -->
                         <div class="platform-card">
                             <img
-                                src="/assets/images/platforms/swimfest.png"
+                                src="{{asset('/assets/images/platforms/swimfest.png')}}"
                                 alt="Swimfest"
                             >
 
@@ -659,7 +659,7 @@
                         <!-- Social Ventures Weekend -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/social-ventures-weekend.jpg"
+                                src="{{asset('assets/images/platforms/social-ventures-weekend.jpg')}}"
                                 alt="Social Ventures Weekend"
                             >
 
@@ -680,7 +680,7 @@
                         <!-- Food Summit -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/food-summit.jpg"
+                                src="{{asset('assets/images/platforms/food-summit.jpg')}}"
                                 alt="The Food Summit"
                             >
 
@@ -701,7 +701,7 @@
                         <!-- NexoraTalks -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/nexora-talks.jpg"
+                                src="{{asset('assets/images/platforms/nexora-talks.jpg')}}"
                                 alt="NexoraTalks"
                             >
 
@@ -722,7 +722,7 @@
                         <!-- Learning Expo -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/learning-expo.jpg"
+                                src="{{asset('assets/images/platforms/learning-expo.jpg')}}"
                                 alt="Learning Expo"
                             >
 
@@ -743,7 +743,7 @@
                         <!-- Ghana Design Week -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/ghana-design-week.jpg"
+                                src="{{asset('assets/images/platforms/ghana-design-week.jpg')}}"
                                 alt="Ghana Design Week"
                             >
 
@@ -764,7 +764,7 @@
                         <!-- CampusX -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/campusx.jpg"
+                                src="{{asset('assets/images/platforms/campusx.jpg')}}"
                                 alt="CampusX"
                             >
 
@@ -785,7 +785,7 @@
                         <!-- Ghana Teens Summit -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/ghana-teens-summit.jpg"
+                                src="{{asset('assets/images/platforms/ghana-teens-summit.jpg')}}"
                                 alt="Ghana Teens Summit"
                             >
 
@@ -806,7 +806,7 @@
                         <!-- STEAM Festival -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/steam-festival.jpg"
+                                src="{{asset('assets/images/platforms/steam-festival.jpg')}}"
                                 alt="STEAM Festival"
                             >
 
@@ -827,7 +827,7 @@
                         <!-- Wellness Wknd -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/wellness-wknd.jpg"
+                                src="{{asset('assets/images/platforms/wellness-wknd.jpg')}}"
                                 alt="Wellness Wknd"
                             >
 
@@ -848,7 +848,7 @@
                         <!-- Enterprise Forward Summit -->
                         <div class="platform-card">
                             <img
-                                src="assets/images/platforms/enterprise-forward.jpg"
+                                src="{{asset('assets/images/platforms/enterprise-forward.jpg')}}"
                                 alt="Enterprise Forward Summit"
                             >
 
@@ -1370,7 +1370,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-sm-12 footer-widget md-mb-50">
                             <div class="about-widget pr-15">
-                                <a href="{{url('/')}}"><img src="assets/images/logo_zynth_africa.png" alt="Footer Logo"></a>
+                                <a href="{{url('/')}}"><img src="{{asset('assets/images/logo_zynth_africa.png')}}" alt="Footer Logo"></a>
 
                                 <p class="desc">
                                     Pan-African Platform Holding Organization
@@ -1512,37 +1512,35 @@
         <!-- Search Modal End -->
 
         <!-- modernizr js -->
-        <script src="assets/js/modernizr-2.8.3.min.js"></script>
+        <script src="{{ asset('assets/js/modernizr-2.8.3.min.js') }}"></script>
         <!-- jquery latest version -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
         <!-- Bootstrap v4.4.1 js -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
         <!-- Menu js -->
-        <script src="assets/js/rsmenu-main.js"></script>
+        <script src="{{ asset('assets/js/rsmenu-main.js') }}"></script>
         <!-- op nav js -->
-        <script src="assets/js/jquery.nav.js"></script>
+        <script src="{{ asset('assets/js/jquery.nav.js') }}"></script>
         <!-- owl.carousel js -->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
         <!-- Slick js -->
-        <script src="assets/js/slick.min.js"></script>
+        <script src="{{ asset('assets/js/slick.min.js') }}"></script>
         <!-- isotope.pkgd.min js -->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
         <!-- imagesloaded.pkgd.min js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
         <!-- wow js -->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="{{ asset('assets/js/wow.min.js') }}"></script>
         <!-- aos js -->
-        <script src="assets/js/aos.js"></script>
-        <!-- Skill bar js -->
+        <script src="{{ asset('assets/js/aos.js') }}"></script>
         <!-- magnific popup js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
         <!-- Nivo slider js -->
-        <script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
+        <script src="{{ asset('assets/inc/custom-slider/js/jquery.nivo.slider.js') }}"></script>
         <!-- plugins js -->
-        <script src="assets/js/plugins.js"></script>
-        <!-- contact form js -->
+        <script src="{{ asset('assets/js/plugins.js') }}"></script>
         <!-- main js -->
-        <script src="assets/js/main.js"></script>
+        <script src="{{ asset('assets/js/main.js') }}"></script>
 
     <script>
         $('.platform-carousel').owlCarousel({
