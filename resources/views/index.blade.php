@@ -1194,7 +1194,7 @@
                                                 </button>
 
                                                 <a
-                                                    href="assets/files/zynth-partnership-deck.pdf"
+                                                    href="{{asset('assets/files/zynth-partnership-deck.pdf')}}"
                                                     class="readon partner-deck-btn"
                                                 >
                                                     Request Partnership Deck
