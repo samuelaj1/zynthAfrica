@@ -659,7 +659,7 @@
                         <!-- Social Ventures Weekend -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/social-ventures-weekend.jpg')}}"
+                                src="{{asset('assets/images/platforms/social-ventures-weekend.png')}}"
                                 alt="Social Ventures Weekend"
                             >
 
@@ -680,7 +680,7 @@
                         <!-- Food Summit -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/food-summit.jpg')}}"
+                                src="{{asset('assets/images/platforms/food-summit.png')}}"
                                 alt="The Food Summit"
                             >
 
@@ -701,7 +701,7 @@
                         <!-- NexoraTalks -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/nexora-talks.jpg')}}"
+                                src="{{asset('assets/images/platforms/nexora-talks.png')}}"
                                 alt="NexoraTalks"
                             >
 
@@ -722,7 +722,7 @@
                         <!-- Learning Expo -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/learning-expo.jpg')}}"
+                                src="{{asset('assets/images/platforms/learning-expo.png')}}"
                                 alt="Learning Expo"
                             >
 
@@ -743,7 +743,7 @@
                         <!-- Ghana Design Week -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/ghana-design-week.jpg')}}"
+                                src="{{asset('assets/images/platforms/ghana-design-week.png')}}"
                                 alt="Ghana Design Week"
                             >
 
@@ -764,7 +764,7 @@
                         <!-- CampusX -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/campusx.jpg')}}"
+                                src="{{asset('assets/images/platforms/campusx.png')}}"
                                 alt="CampusX"
                             >
 
@@ -785,7 +785,7 @@
                         <!-- Ghana Teens Summit -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/ghana-teens-summit.jpg')}}"
+                                src="{{asset('assets/images/platforms/ghana-teens-summit.png')}}"
                                 alt="Ghana Teens Summit"
                             >
 
@@ -806,7 +806,7 @@
                         <!-- STEAM Festival -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/steam-festival.jpg')}}"
+                                src="{{asset('assets/images/platforms/steam-festival.png')}}"
                                 alt="STEAM Festival"
                             >
 
@@ -827,7 +827,7 @@
                         <!-- Wellness Wknd -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/wellness-wknd.jpg')}}"
+                                src="{{asset('assets/images/platforms/wellness-wknd.png')}}"
                                 alt="Wellness Wknd"
                             >
 
@@ -848,7 +848,7 @@
                         <!-- Enterprise Forward Summit -->
                         <div class="platform-card">
                             <img
-                                src="{{asset('assets/images/platforms/enterprise-forward.jpg')}}"
+                                src="{{asset('assets/images/platforms/enterprise-forward.png')}}"
                                 alt="Enterprise Forward Summit"
                             >
 
